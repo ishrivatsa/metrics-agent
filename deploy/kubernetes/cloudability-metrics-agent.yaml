@@ -111,7 +111,7 @@ spec:
     spec:
       serviceAccount: "cloudability"
       containers:
-        - image: cloudability/metrics-agent:latest
+        - image: cloudability/metrics-agent:2.11.10
           imagePullPolicy: Always
           securityContext:
             runAsUser: 1000
